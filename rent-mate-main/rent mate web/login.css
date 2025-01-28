@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #f4f4f4;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    height: 50px;
+    background-color: #033163;
+    /* Dark blue for consistency */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a {
+    color: #ff7f50;
+    /* Accent color for links */
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+#logo img {
+    height: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #033163;
+    /* Dark blue to match the navbar */
+    margin-bottom: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #033163;
+    /* Dark blue for footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.login-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.login-options {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    background-color: #033163;
+    /* Dark blue for buttons */
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.login-btn:hover {
+    background-color: #021c3c;
+    /* Darker blue for hover effect */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #033163;
+    /* Dark blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-decoration: none;
+}
+
+button[type="submit"]:hover {
+    background-color: #021c3c;
+    /* Darker blue for submit button hover */
+}
